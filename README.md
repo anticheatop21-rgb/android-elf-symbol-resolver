@@ -22,21 +22,6 @@ A robust, high-performance C library for parsing and resolving symbols in ELF bi
 - **Educational**: Learn about ELF format, symbol tables, and `.gnu_debugdata` structure
 - **Android NDK Development**: Debug and analyze native libraries during development
 
-## 🏷️ GitHub Topics
-
-For optimal GitHub discovery, add these topics to your repository:
-
-```
-android, elf, elf-parser, symbol-lookup, symbol-resolver, gnu-debugdata, android-ndk, 
-binary-analysis, reverse-engineering, c, cmake, lzma, xz, cpp-demangling, aosp, 
-android-15, debug-symbols, symbol-table, elf-format, android-native, reverse-engineering-tools, 
-binary-analysis-tools, android-development, native-library, elf-binary, android-debugging
-```
-
-## 🔍 Keywords & Topics
-
-**ELF** | **Android** | **Symbol Lookup** | **Symbol Resolution** | **.gnu_debugdata** | **ELF Parser** | **Binary Analysis** | **Reverse Engineering** | **Android NDK** | **ELF Symbol Table** | **Debug Symbols** | **XZ Decompression** | **LZMA** | **C++ Demangling** | **AOSP** | **Android 15** | **ELF Binary Analysis** | **Symbol Table** | **GNU Debug Data** | **Android Native Library** | **dl_iterate_phdr** | **dlsym** | **ELF Format** | **ARM** | **AArch64** | **x86** | **x86_64**
-
 ## 📖 Inspiration
 
 This project was inspired by **Android 15** and the **Android Open Source Project (AOSP)**. The AOSP published a relevant component about the ELF parser, which can be found at:
