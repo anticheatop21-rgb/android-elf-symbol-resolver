@@ -318,34 +318,3 @@ make install
 ```
 
 Then copy the static library and headers to your project's `liblzma/` directory.
-
-## 📝 Project Naming
-
-This project has been renamed from `symbol_lookup` to **Android ELF Symbol Resolver** for better discoverability. The library target name in CMake is `android_elf_symbol_resolver`, but the API functions remain `symbol_lookup_*` for backward compatibility.
-
-**Recommended directory name:** `android-elf-symbol-resolver` or `android_elf_symbol_resolver`
-
-## 🔎 Search Optimization
-
-This library is optimized for discovery through these search terms:
-
-- **ELF symbol lookup Android**
-- **.gnu_debugdata parser**
-- **Android ELF parser**
-- **ELF symbol resolver**
-- **Android binary analysis**
-- **AOSP ELF parser**
-- **Android reverse engineering tools**
-- **ELF symbol table parser**
-- **Android NDK symbol lookup**
-- **XZ decompression ELF**
-- **Android native library symbols**
-
-## 📄 License
-
-This library is provided as-is for use in your projects.
-
-## 🙏 Acknowledgments
-
-Inspired by the Android Open Source Project (AOSP), specifically the ELF parsing implementation in Android 15's simpleperf tool.
-
