@@ -612,11 +612,12 @@ uintptr_t symbol_lookup_by_name(SymbolTable* table, uintptr_t lib_base, const ch
         return 0;
     }
     
-    for (size_t i = 0; i < table->count; i++) {
-        if (strcmp(table->syms[i].name, name) == 0) {
+    for (size_t i = 0; i < table->count; i++) 
+    {
+        if(strstr(table->syms[i].name, name) != NULL)
+        {
             uintptr_t addr = lib_base + table->syms[i].addr;
-            LOGI("Found symbol '%s' in symbol table at address: 0x%llx (offset: 0x%llx)", 
-                 name, (unsigned long long)addr, (unsigned long long)table->syms[i].addr);
+            LOGI("Found symbol '%s' in symbol table at address: 0x%llx (offset: 0x%llx)", name, (unsigned long long)addr, (unsigned long long)table->syms[i].addr);
             errno = 0;
             return addr;
         }
@@ -731,3 +732,4 @@ char* symbol_demangle(const char* mangled_name) {
     
     return NULL;
 }
+
